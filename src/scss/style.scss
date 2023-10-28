@@ -1,0 +1,54 @@
+@import 'reset';
+@import 'resources';
+@import 'base';
+
+body {
+  main {
+    padding: 1rem;
+    header {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      img {
+        max-width: 269px;
+      }
+    }
+    .buttons-pages {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: nowrap;
+      align-items: center;
+      gap: 1rem;
+      padding: 2rem;
+      button {
+        padding: 1rem 3rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        background: $grey;
+        color: white;
+
+        &:hover {
+          background: $grey-dark;
+          font-weight: 600;
+        }
+      }
+    }
+    .cards {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+
+      .pokemon-card {
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        border-radius: 1rem;
+        padding: 1rem;
+      }
+    }
+  }
+}

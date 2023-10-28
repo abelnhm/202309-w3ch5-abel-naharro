@@ -1,0 +1,48 @@
+//BASE VALUES
+
+//COLORS
+$red: #e3350d;
+$grey: #919191;
+$grey-dark: #424242;
+$orange: #ee6b2f;
+$yellow: #e6bc2f;
+$yellow-dark: #a38c21;
+$green: #4dad5b;
+$green-dark: #729f3f;
+$blue: #30a7d7;
+$blue-dark: #1b53ba;
+$purple: #b97fc9;
+$pink: #f366b9;
+
+//FONTS
+$mulish: 'Mulish', sans-serif;
+$poppins: 'Poppins', sans-serif;
+
+//FONT-SIZE ELEMENT TYPE H
+$size_h_2xl: 5.625rem;
+$size_h_xl: 4.188rem;
+$size_h_l: 3.125rem;
+$size_h_m: 2.375rem;
+$size_h_s: 1.75rem;
+$size_h_xs: 1.75rem;
+
+//WEIGHT ELEMENT TYPE H
+$weight_h_bold: 700;
+$weight_h_semibold: 600;
+
+//FONT-SIZE ELEMENT TYPE TEXT
+$size_text_xl: 1.75rem;
+$size_text_l: 1.313rem;
+$size_text_m: 1rem;
+$size_text_s: 0.875rem;
+
+//WEIGHT ELEMENT TYPE text
+$weight_text_regular: 400;
+
+//BORDERS
+$border-radius: 1.25rem;
+
+//SHADOW
+@mixin shadow() {
+  box-shadow: 34px 29px 48px 0px rgba(51, 102, 255, 0.05);
+}
