@@ -3,7 +3,6 @@ import './scss/style.scss';
 import { Header } from './components/header';
 import { Main } from './components/main';
 import { List } from './components/list';
-import { Card } from './components/card';
 
 // Import { Main } from './components/main';
 // import { Section } from './components/section';
