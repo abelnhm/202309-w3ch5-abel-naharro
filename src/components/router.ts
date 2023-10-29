@@ -35,8 +35,8 @@ export class Router extends Component {
       case '/info.html':
         // RouteHtml += `<h2>Información de Pokémon</h2><a href="/">Volver</a>`;
         routeHtml += `<a class="button-back" href="/">
-                 <i class="fa fa-chevron-left" aria-hidden="true"></i> Back
-               </a>`;
+                        <i class="fa fa-chevron-left" aria-hidden="true"></i> Back
+                      </a>`;
 
         this.loadTemplateInfoPokemon(this.parameter);
 
