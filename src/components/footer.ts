@@ -1,7 +1,7 @@
 import { Component } from './component';
 import '../scss/style.scss';
 
-export class Header extends Component {
+export class Footer extends Component {
   title: string;
   constructor(selector: string, title: string) {
     super(selector);
@@ -11,9 +11,11 @@ export class Header extends Component {
   }
 
   createTemplate() {
-    return `<header class="main-header">
-              <img class="img-title" src="/pokemon.svg" alt="${this.title}">
-              <img class="img-subtitle" src="/animation.gif" alt="pokémon animation"
-            </header>`;
+    return `<footer>
+              <img src="/giphy.gif" alt="Project by Abel Naharro">
+              <p>
+              ${this.title}
+              </p>
+            </footer>`;
   }
 }

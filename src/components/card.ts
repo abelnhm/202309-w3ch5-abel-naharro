@@ -43,7 +43,7 @@ export class Card extends Component {
   createTemplate() {
     return `
     <li class="pokemon-card">
-      <a href="">
+      <a href="/info.html?id=${this.id}">
       <p><span>ID:</span> ${this.id}</p>
       <img alt="Image pokémon ${this.pokemon.name}" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${this.id}.gif">
       

@@ -20,6 +20,7 @@ export class List extends Component {
   async loadPokemons(page: number) {
     try {
       this.pokemons = await this.repo.getPokemons(page);
+      console.log(this.pokemons);
       this.clear();
       this.render();
     } catch (error) {
@@ -30,8 +31,6 @@ export class List extends Component {
   render() {
     this.template = this.createTemplate();
     super.render();
-    console.log('LISTA CON CARDS DE POKEMON');
-    console.log(this.pokemons);
 
     const listPokemons: string[] | undefined = this.pokemons?.results;
     return listPokemons?.map(
